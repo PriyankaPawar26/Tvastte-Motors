@@ -1,6 +1,8 @@
 
 export default function Home() {
   return (
-    <h1>Hello Tvastte Motors!</h1>
+    <h1 className="text-3xl font-bold underline">
+    Hello Tvastte Motors!
+  </h1>
   )
 }
