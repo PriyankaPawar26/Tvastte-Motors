@@ -33,53 +33,52 @@ const Nav = () => {
           className="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
           id="navbarSupportedContent3"
           data-te-collapse-item>
-          <a className="pr-2 text-xl text-yellow-400 dark:text-neutral-200" href="#"
-            >Home</a
+          <Link className="pr-2 text-xl text-yellow-400 dark:text-neutral-200" href="#"
+            >Home</Link
           >
           <ul
             className="list-style-none mr-auto flex flex-col pl-0 lg:flex-row"
             data-te-navbar-nav-ref>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-              <a
-                className="p-0 text-neutral-100 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              <Link
+                className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                 href="/products"
                 data-te-nav-link-ref
-                >Products</a
+                >Products</Link
               >
             </li>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-              <a
-                className="p-0 text-neutral-100 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              <Link
+                className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                 href="/attachments"
                 data-te-nav-link-ref
-                >Attachments</a
+                >Attachments</Link
               >
             </li>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-              <a
-                className="p-0 text-neutral-100 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              <Link
+                className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                 href="/about"
                 data-te-nav-link-ref
-                >About Us</a
+                >About Us</Link
               >
             </li>
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-              <a
-                className="p-0 text-neutral-100 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              <Link
+                className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                 href="/contact"
                 data-te-nav-link-ref
-                >Contact</a
+                >Contact</Link
               >
             </li>
-           
+
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
-              <Link href={"/Register"}>
-              Register
-              </Link>
-            </li>
-            
-           
-            
+              <Link
+                className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                href="/register"
+                data-te-nav-link-ref
+                >Register</Link>
+            </li>        
           </ul>
         </div>
       </div>
