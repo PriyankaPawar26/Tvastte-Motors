@@ -1,6 +1,6 @@
 import Image from "next/image";
 import localFont from 'next/font/local'
- 
+
 // Font files can be colocated inside of `app`
 const myFont = localFont({
   src: '../../public/fonts/space-age.ttf',
@@ -32,7 +32,7 @@ const Homescreen = () => {
   </h1>
     <hr className="w-96 h-1 bg-yellow-400 border-0 rounded md:my-2"/>
   </div>
-
+  
   </>
   )
 }
