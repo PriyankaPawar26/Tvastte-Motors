@@ -9,8 +9,16 @@ const myFont = localFont({
 
 const Homescreen = () => {
   return (
-    <>   
-    <div className="fixed h-screen w-screen overflow-hidden -z-10">
+    <>
+      <div className={`${myFont.className} absolute w-96 ml-72 pt-72` }>
+  <h1 className="text-6xl mb-0">
+      <span className="text-yellow-400">Earth</span>
+      <br />
+      <span className="text-white">Shaping Solution</span>
+  </h1>
+    <hr className="w-96 h-1 bg-yellow-400 border-0 rounded md:my-2"/>
+  </div>   
+    <div className="relative h-screen w-screen overflow-hidden -z-10">
     <Image
       alt="JCB"
       src='/images/jcb.jpg'
@@ -23,14 +31,6 @@ const Homescreen = () => {
         objectFit: 'cover',
       }}
     />
-  </div>
-  <div className={`${myFont.className} w-96 ml-72 pt-72` }>
-  <h1 className="text-6xl mb-0">
-      <span className="text-yellow-400">Earth</span>
-      <br />
-      <span className="text-white">Shaping Solution</span>
-  </h1>
-    <hr className="w-96 h-1 bg-yellow-400 border-0 rounded md:my-2"/>
   </div>
   
   </>
