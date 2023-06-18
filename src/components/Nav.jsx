@@ -13,7 +13,7 @@ const Nav = () => {
           data-te-collapse-init
           data-te-target="#navbarSupportedContent3"
           aria-controls="navbarSupportedContent3"
-          aria-expanded="false"
+          aria-expanded="false" 
           aria-label="Toggle navigation">
           <span className="[&>svg]:w-7">
             <svg
@@ -66,7 +66,7 @@ const Nav = () => {
             <li className="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
               <Link
                 className="p-0 text-neutral-100 hover:text-yellow-400 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                href="/contact"
+                href="/contactus"
                 data-te-nav-link-ref
                 >Contact</Link
               >

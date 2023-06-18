@@ -33,7 +33,7 @@ function Header1() {
           <p className="ml-4 text-lg">Email Us:</p>
           <p className="ml-4 font-bold text-lg">info@example.com</p>
         </div>
-        <button className="ml-6 bg-blue-500 text-white px-4 py-2 rounded-md">
+        <button className="ml-6 bg-yellow-500 text-white px-4 py-2 rounded-md">
           Book Now
         </button>
       </div>

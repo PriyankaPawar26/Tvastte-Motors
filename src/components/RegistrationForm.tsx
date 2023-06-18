@@ -9,32 +9,26 @@ const RegistrationForm = ({
 }) => {
   return (
     <div>
-      <div className="container w-96 m-auto mt-10">
+      <div className="container w-96 m-auto mt-10 bg-white">
         <h1>{profile.email}</h1>
         <h1>{profile.phone}</h1>
         <h1>{profile.address}</h1>
       </div>
-      <section className="bg-gray-50 dark:bg-gray-900 mt-5">
-        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+      <section className="bg-gray-50 dark:bg-gray-900 mt-5 bg-white">
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 bg-white">
           <Link
             href="#"
             className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <Image 
-              // className="w-8 h-8 mr-2"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+      
             Registration
           </Link>
-          <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+          <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 bg-white dark:border-gray-700">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-              <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+              <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl bg-white">
                 Create and account
               </h1>
-              <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
+              <form className="space-y-4 md:space-y-6 bg-white" onSubmit={handleSubmit}>
                 <div>
                   <label
                     htmlFor="email"
@@ -48,7 +42,7 @@ const RegistrationForm = ({
                     type="email"
                     name="email"
                     id="email"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="name@company.com"
                     required
                   />
@@ -66,7 +60,7 @@ const RegistrationForm = ({
                     type="number"
                     name="pnumber"
                     id="pnumber"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="94******00"
                     required
                   />
@@ -84,7 +78,7 @@ const RegistrationForm = ({
                     type="text"
                     name="address"
                     id="address"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="address"
                   />
                 </div>
@@ -102,7 +96,7 @@ const RegistrationForm = ({
                     name="password"
                     id="password"
                     placeholder="••••••••"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   />
                 </div>
 
@@ -118,7 +112,7 @@ const RegistrationForm = ({
                     name="confirm-password"
                     id="confirm-password"
                     placeholder="••••••••"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   />
                 </div>
                 <div className="flex items-start">
@@ -127,7 +121,7 @@ const RegistrationForm = ({
                       id="terms"
                       aria-describedby="terms"
                       type="checkbox"
-                      className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+                      className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 bg-white dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
                     />
                   </div>
                   <div className="ml-3 text-sm">
