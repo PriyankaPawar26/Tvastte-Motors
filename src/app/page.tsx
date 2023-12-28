@@ -8,11 +8,11 @@ export default function Home() {
   return (
   <>
     <Header1 />
-    <Nav/>
-    <Homescreen />
-    <Booking />
+    {/* <Nav/>
+    <Homescreen /> */}
+    {/* <Booking />
     <ProductRange />
-    <Equipment />
+    <Equipment /> */}
   </>
   )
 }
